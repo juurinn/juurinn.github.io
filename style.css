@@ -8,7 +8,7 @@ body {
 }
 
 nav {
-    width: 100%;
+    width: calc(100% - 50px);
     background-color: #0d0d0d;
     padding: 25px;
 }
@@ -140,10 +140,11 @@ h1.page-title {
 }
 
 footer {
-    width: 100%;
+    width: calc(100% - 20px);
     margin: auto;
     background-color: #0d0d0d;
     padding: 10px;
+    margin-top: 20px;
 }
 
 footer p {
